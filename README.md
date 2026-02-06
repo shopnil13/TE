@@ -34,7 +34,7 @@ cd TE
 
 ### Running Locally (Python)
 
-1.  **Create a virtual environment** (optional but recommended):
+1.  **Create a virtual environment inside project directory** (Highly recommended):
     ```bash
     python -m venv venv
     # Windows
