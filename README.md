@@ -25,29 +25,7 @@ cd TE
 
 ## How to Run
 
-### Option A: Running with Docker (Recommended)
-
-This is the easiest way to run the application as it handles all dependencies for you.
-
-1.  **Start the container**:
-    ```bash
-    docker-compose up --build
-    ```
-    This command will build the image and start the extraction process.
-
-2.  **Process Files**:
-    *   Place your target PDF files in the `input/` folder within the project directory. (Don't forget to remove the test.pdf file before running the script).
-    *   The script will automatically process them.
-    *   Find the results in the `output/` folder (`data.json` and `data.xlsx`).
-
-3.  **Stop**:
-    ```bash
-    docker-compose down
-    ```
-
-### Option B: Running Locally (Python)
-
-If you prefer to run it directly on your machine:
+### Running Locally (Python)
 
 1.  **Create a virtual environment** (optional but recommended):
     ```bash
