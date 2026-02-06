@@ -4,11 +4,18 @@ This tool extracts structured data from PDF files, specifically designed to pars
 
 ## Prerequisites
 
-Before running the project, ensure you have the following installed:
+To run this project, you need the following installed on your local machine:
 
-*   **Git**: To clone the repository.
-*   **Python 3.9+** (for local execution).
-*   **Docker Desktop** (for containerized execution - Recommended).
+*   **Git**: Version control tool to clone the repository.
+*   **Python**: Version 3.9 or higher.
+*   **PIP**: Python package installer (usually included with Python).
+
+### Required Libraries
+The following Python libraries are used (installed via `requirements.txt`):
+*   `pdfplumber`: For extracting text from PDF files.
+*   `pandas`: For data structuring and Excel export.
+*   `openpyxl`: For saving Excel (`.xlsx`) files.
+*   `reportlab`: For creating dummy PDFs (if testing).
 
 ## Getting Started
 
